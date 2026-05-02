@@ -1,0 +1,111 @@
+{
+  "month": "April 2026",
+  "sourceSheets": [
+    "Start_Here",
+    "Developer_Productivity_Brief",
+    "Metric_Examples",
+    "Developer_Dim",
+    "Issues",
+    "Pull_Requests",
+    "Deployments",
+    "Escaped_Bugs"
+  ],
+  "developers": [
+    {
+      "id": "ananya-shah",
+      "name": "Ananya Shah",
+      "role": "Frontend Engineer",
+      "team": "Checkout",
+      "focusArea": "Payments UX",
+      "metrics": {
+        "leadTimeDays": 3.4,
+        "cycleTimeDays": 4.1,
+        "bugRate": 0.04,
+        "deploymentFrequency": 16,
+        "prThroughput": 11
+      },
+      "trend": {
+        "leadTimeDays": [4.1, 3.9, 3.4],
+        "cycleTimeDays": [4.9, 4.4, 4.1],
+        "bugRate": [0.09, 0.06, 0.04],
+        "deploymentFrequency": [12, 14, 16],
+        "prThroughput": [9, 10, 11]
+      },
+      "signals": [
+        "Tight delivery loop between PR merge and deployment",
+        "Low escaped bug count despite steady throughput",
+        "Consistent output over the last three months"
+      ],
+      "sources": {
+        "issuesDone": 13,
+        "mergedPrs": 11,
+        "productionDeployments": 16,
+        "escapedBugs": 1
+      }
+    },
+    {
+      "id": "rahul-verma",
+      "name": "Rahul Verma",
+      "role": "Backend Engineer",
+      "team": "Platform",
+      "focusArea": "Release Automation",
+      "metrics": {
+        "leadTimeDays": 7.8,
+        "cycleTimeDays": 5.6,
+        "bugRate": 0.08,
+        "deploymentFrequency": 7,
+        "prThroughput": 9
+      },
+      "trend": {
+        "leadTimeDays": [6.2, 6.9, 7.8],
+        "cycleTimeDays": [4.7, 5.1, 5.6],
+        "bugRate": [0.05, 0.06, 0.08],
+        "deploymentFrequency": [10, 8, 7],
+        "prThroughput": [10, 10, 9]
+      },
+      "signals": [
+        "Cycle time is acceptable, but lead time keeps expanding",
+        "Deployments are getting batched into fewer releases",
+        "Quality is stable enough to speed up the release path"
+      ],
+      "sources": {
+        "issuesDone": 12,
+        "mergedPrs": 9,
+        "productionDeployments": 7,
+        "escapedBugs": 1
+      }
+    },
+    {
+      "id": "meera-iyer",
+      "name": "Meera Iyer",
+      "role": "Full-stack Engineer",
+      "team": "Growth",
+      "focusArea": "Experiments",
+      "metrics": {
+        "leadTimeDays": 6.5,
+        "cycleTimeDays": 8.2,
+        "bugRate": 0.19,
+        "deploymentFrequency": 9,
+        "prThroughput": 6
+      },
+      "trend": {
+        "leadTimeDays": [5.8, 6.1, 6.5],
+        "cycleTimeDays": [6.3, 7.4, 8.2],
+        "bugRate": [0.11, 0.15, 0.19],
+        "deploymentFrequency": [11, 10, 9],
+        "prThroughput": [8, 7, 6]
+      },
+      "signals": [
+        "Work is spending longer in progress before completion",
+        "Escaped bugs are rising as throughput falls",
+        "This looks more like overload or unclear scope than low effort"
+      ],
+      "sources": {
+        "issuesDone": 16,
+        "mergedPrs": 6,
+        "productionDeployments": 9,
+        "escapedBugs": 3
+      }
+    }
+  ]
+}
