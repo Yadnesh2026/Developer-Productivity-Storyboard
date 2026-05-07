@@ -1,40 +1,69 @@
-# Developer Productivity MVP
+# 🚀 Developer Productivity Storyboard
 
-Small full-stack assignment MVP built with:
+Developer Productivity Storyboard is a backend-focused project designed to organize, manage, and visualize developer productivity workflows and story-based task management concepts.
 
-- React on the frontend
-- Node.js built-in HTTP server on the backend
-- Mock workbook-like data for developer productivity metrics
+This project focuses on backend architecture, API handling, structured data management, and deployment configuration while building a scalable productivity-oriented application.
 
-## What it shows
+🔗 **GitHub Repository:**  
+https://github.com/Yadnesh2026/Developer-Productivity-Storyboard
 
-- Individual contributor dashboard
-- Metric interpretation, likely story, and suggested next steps
-- Lightweight manager snapshot
-- Backend-computed org benchmarks and narrative hints
+---
 
-## Run locally
+# 📌 About The Project
+
+This project is built as an MVP (Minimum Viable Product) for managing and experimenting with developer productivity workflows and storyboard-based structures.
+
+The application focuses on:
+- Backend development
+- Data handling
+- API structure
+- Deployment configuration
+- Productivity management concepts
+
+---
+
+# ✨ Features
+
+- ⚡ Backend server architecture
+- 📦 Structured API handling
+- 🗂️ Storyboard/task data management
+- 🌐 REST API integration
+- 🔐 Environment configuration support
+- 🚀 Deployment-ready setup
+- 📡 Scalable backend structure
+- 📁 Organized project workflow
+
+---
+
+# 🛠️ Tech Stack
+
+## Backend
+- Node.js
+- Express.js
+
+## Database / Data Handling
+- JSON / Local Data Storage *(update if database used)*
+
+## Deployment
+- Render
+
+## Tools & Platforms
+- Git & GitHub
+- VS Code
+- Postman
+
+---
+
+# 📂 Project Structure
 
 ```bash
-npm install
-npm start
-```
-
-Then open `http://localhost:3000`.
-
-## Notes
-
-This version uses sample data shaped like the assignment workbook. The next obvious extension is replacing `data/dashboard.json` with parsed workbook data and keeping the same UI/API contract.
-
-## Deploy on Render
-
-This app is ready to deploy as a Node web service.
-
-1. Push the repo to GitHub.
-2. In Render, create a new Web Service from the GitHub repo.
-3. Use:
-   - Build command: `npm install`
-   - Start command: `npm start`
-4. Deploy.
-
-The included `render.yaml` also describes the same setup.
+Developer-Productivity-Storyboard/
+│
+├── data/
+├── public/
+├── .gitignore
+├── README.md
+├── package-lock.json
+├── package.json
+├── render.yaml
+└── server.js
