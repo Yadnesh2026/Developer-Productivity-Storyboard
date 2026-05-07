@@ -52,7 +52,6 @@ The application focuses on:
 - VS Code
 - Postman
 
----
 
 # 📂 Project Structure
 
