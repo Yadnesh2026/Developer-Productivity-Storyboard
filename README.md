@@ -7,8 +7,6 @@ This project focuses on backend architecture, API handling, structured data mana
 🔗 **GitHub Repository:**  
 https://github.com/Yadnesh2026/Developer-Productivity-Storyboard
 
----
-
 # 📌 About The Project
 
 This project is built as an MVP (Minimum Viable Product) for managing and experimenting with developer productivity workflows and storyboard-based structures.
